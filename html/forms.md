@@ -193,3 +193,78 @@ Creates a clickable button.
 
 </form>
 ```
+
+# Placeholder Attribute
+
+## Definition
+
+The `placeholder` attribute displays a short hint inside an input field until the user enters a value.
+
+## Syntax
+
+```html
+<input type="text" placeholder="Enter your name">
+```
+
+## Example
+
+```html
+<input type="email" placeholder="Enter your email">
+```
+
+## Important Points
+
+- Displays hint text inside the input field.
+- Disappears when the user starts typing.
+- Does not submit as input value.
+
+# Label
+
+## Definition
+
+The `<label>` element is used to provide a text label for an input field.
+
+## Syntax
+
+```html
+<label>Name</label>
+<input type="text">
+```
+
+## Example
+
+```html
+<label>Email</label>
+<input type="email">
+```
+
+## Important Points
+
+- Improves accessibility.
+- Helps users understand the purpose of an input field.
+
+# Label (Classical Approach)
+
+## Definition
+
+In the classical approach, the `<label>` is linked to an input using the `for` attribute, and the input uses the same `id`.
+
+## Syntax
+
+```html
+<label for="username">Username</label>
+<input type="text" id="username">
+```
+
+## Example
+
+```html
+<label for="email">Email</label>
+<input type="email" id="email">
+```
+
+## Important Points
+
+- The `for` attribute value must match the input's `id`.
+- Clicking the label automatically focuses the corresponding input field.
+- Improves accessibility and user experience.
